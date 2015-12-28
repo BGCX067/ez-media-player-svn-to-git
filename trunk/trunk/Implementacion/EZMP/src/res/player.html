@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <title>Los Cerdos Azules del Software</title>
+        <link rel="stylesheet" href="theme/style.css"
+        type="text/css" media="screen" />
+        <script type="text/javascript" src="libs/jquery.min.js"></script>
+        <script type="text/javascript" src="libs/projekktor.min.js"></script>
+        <script type="text/javascript" src="libs/xml2json.js"></script>
+    </head>
+    
+    <body>
+        <video id="player_a" class="projekktor fullscreen pphttp" title="EZ Media Player"
+        width="640" height="360" preload="auto" autoplay controls>
+        <source src="library/video/VIDEONAME.mp4" type="video/mp4" />
+        <source src="library/video/useMeAsDefault.mp4" type="video/mp4" />
+	</video>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                player = projekktor('#player_a', {
+                    volume: 1,
+                    enableFullscreen: true,
+                    controls: true
+                }, function (player) {
+                    player.setFullscreen(true);
+                    player.addListener('ready', function () {
+                        player.setFullscreen(true);
+                    });
+					player.addListener(state('COMPLETED'), function(){
+						player.setStop();
+						player.setFile([{0:{src: 'library/video/VIDEONAME.mp4', type: 'video/mp4'} }]);
+					});
+                });
+            });
+			
+        </script>
+    </body>
+
+</html>

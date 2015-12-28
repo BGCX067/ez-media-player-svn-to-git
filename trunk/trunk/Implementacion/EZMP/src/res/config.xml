@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+    <systemInfo name="main" library="library/library.xml" gradientx1="0" gradienty1="128" backgroundColor1="CYAN" backgroundColor2="BLUE" systemFontName="Arial" systemFontStyle="BOLD" systemFontSize="20" wrongFieldBackgroundColor="RED" wrongFieldForegroundColor="WHITE" defaultFieldBackgroundColor="WHITE" defaultFieldForegroundColor="BLACK" maxFieldLength="80" fileTypeLength="3" audioFormat="mp3" videoFormat="mp4" fileChooserDefaultPath="C:\" audiosPath="library\audio\" videosPath="library\video\" logPath="logs" bridgeFile="bridge.xml"/>
+    <message id="msg0" msg="Parámetro inválido para el método initializeArea(String, int, int)." />
+    <message id="msg1" msg="Error de IO durante el cierre de un objeto de tipo FileChannel." />
+    <message id="msg2" msg="Parametro inválido para el metodo getMessage(int)." />
+    <message id="msg3" msg="Error inesperado en el sistema, que procederá a cerrarse. Consulte el fichero de log para mas información." />
+    <message id="msg4" msg="Error SAX durante el parseo de un archivo XML." />
+    <message id="msg5" msg="Error de IO durante el parseo de un archivo XML." />
+    <message id="msg6" msg="Error de Sintaxis URI durante el parseo de un archivo XML." />
+    <message id="msg7" msg="Cargando..." />
+    <message id="msg8" msg="Error durante la creación de la pantalla de carga." />
+    <message id="msg9" msg="Error de interrupción del hilo de actualización de la barra de progreso." />
+    <message id="msg10" msg="Error de carga de apariencia del sistema. Aplicada apariencia de compatibilidad." />
+    <message id="msg11" msg="Parámetro invalido para el método toggleButtonImage(String)." />
+    <message id="msg12" msg="Error durante la intepretación de la configuración de color del fondo." />
+    <message id="msg13" msg="Tipo de elemento erróneo encontrado durante la renderización de la lista." />
+    <message id="msg14" msg="Tipo de elemento no reconocido." />
+    <message id="msg15" msg="Tipo de elemento erróneo encontrado durante la obtención de un atributo del medio seleccionado." />
+    <message id="msg16" msg="Error durante la renderización de la fuente de la lista." />
+    <message id="msg17" msg="El elemento seleccionado va a ser eliminado de la biblioteca. ¿Desea eliminarlo del equipo?." />
+    <message id="msg18" msg="Error durante la intepretación de la respuesta del usuario al tipo de borrado." />
+    <message id="msg19" msg="Error durante el borrado de un archivo." />
+    <message id="msg20" msg="Nombre ocupado." />
+    <message id="msg21" msg="Sea coherente." />
+    <message id="msg22" msg="Menos de 80 caracteres." />
+    <message id="msg23" msg="Formato de archivo no reconocido al volcar su información a la biblioteca." />
+    <message id="msg24" msg="Posicionamiento de componentes inválido en la ventana del modo de agregación." />
+    <message id="msg25" msg="Relléname." />
+    <message id="msg26" msg="Error durante el copiado de un archivo." />
+    <message id="msg27" msg="Elemento no encontrado." />
+    <message id="msg28" msg="No se puede reproducir con un AudioThread un elemento que no es de audio." />
+    <message id="msg29" msg="No se puede reproducir con el método de audio un elemento que no es de audio." />
+    <message id="msg30" msg="No se puede reproducir con el método de vídeo un elemento que no es de audio." />
+    <message id="msg31" msg="Se ha intentado pausar un elemento de audio ya pausado." />
+    <message id="msg32" msg="El elemento a reproducir no existe." />
+    <message id="msg33" msg="El archivo a reproducir no se ha encontrado." />
+    <splashData name="text" x="17" y="0.88h" w="0.45w" h="32" />
+    <splashData name="progressBar" x="30" y="0.1h" w="0.945w" h="12" refreshDelaySeconds="0" fillPerDelay="5" />
+    <splashData name="textFormat" fontName="Dialog" fontStyle="BOLD" fontSize="14" fontColor="BLACK" xAddition="12" yAddition="80" />
+    <windowData name="main" title="EZ Media Player" w="800" h="600" lookAndFeelName="Nimbus" icon="appIcon.png" />
+    <buttonData name="play" x="40" y="438" w="90" h="90" icon1="playIdle.png" icon2="play.png" />
+    <buttonData name="pause" x="140" y="438" w="90" h="90" icon1="pauseIdle.png" icon2="reanudate.png" icon3="pause.png" />
+    <buttonData name="loop" x="300" y="438" w="90" h="90" icon1="noLoop.png" icon2="loop.png" />
+    <buttonData name="add" x="470" y="438" w="90" h="90" icon1="add.png" />
+    <buttonData name="update" x="370" y="230" w="90" h="90" icon1="confirm.png" />
+    <buttonData name="delete" x="680" y="438" w="90" h="90" icon1="delete.png" />
+    <buttonData name="copy" text="Copia" />
+    <buttonData name="link" text="Enlace" />
+    <buttonData name="cancel" text="Cancelar" />
+    <buttonData name="accept" x="10" y="260" w="90" h="90" icon1="confirm.png" />
+    <buttonData name="stop" x="190" y="260" w="90" h="90" icon1="cancel.png" />
+    <buttonData name="download" x="570" y="438" w="90" h="90" icon1="download.png" />
+    <buttonData name="downloadInDialog" x="230" y="10" w="50" h="50" icon1="download.png" />
+    <labelData name="libraryHeader" x="530" y="40" w="190" h="40" icon1="libraryHeader.png" />
+    <labelData name="header" x="30" y="30" w="400" h="100" icon1="header.png" />
+    <labelData name="name" x="30" y="160" w="100" h="50" text1="Nombre: " />
+    <labelData name="author" x="30" y="220" w="100" h="50" text1="Autor: " />
+    <labelData name="year" x="30" y="280" w="100" h="50" text1="Año: " />
+    <labelData name="genre" x="30" y="340" w="100" h="50" text1="Género: " />
+    <listData name="elements" x="470" y="100" w="300" h="320" fontName="DejaVu Sans" fontStyle="PLAIN" cellHeight="25" cellAlignment="CENTER" audioItemColor="LIGHT_GRAY" videoItemColor="DARK_GRAY" selectedItemColor="BLUE" selectedForeground="ORANGE" unselectedForeground="WHITE" />
+    <textFieldData name="name" x="120" y="160" w="240" h="50" />
+    <textFieldData name="author" x="100" y="220" w="260" h="50" />
+    <textFieldData name="year" x="80" y="280" w="280" h="50" />
+    <textFieldData name="genre" x="110" y="340" w="250" h="50" />
+    <textFieldData name="download" x="10" y="10" w="215" h="50"/>
+    <addModeData name="main" w="400" h="200" title="Modo" content="¿Cómo desea agregar el archivo?" buttonW="95" buttonH="50" minimumButtonSeparation="5" icon="question.png" iconSeparationFromCorner="10" fontName="Arial" fontStyle="BOLD" fontSize="15"/>
+    <newElementFormData name="main" title="Datos" w="380" h="400" fontName="Arial" fontStyle="BOLD" fontSize="15" separation="10"/>
+    <spinnerData name="main" title="Cargando..." w="90" h="90" spinnerIcon="loadingSpinner.gif" finishIcon="confirm.png"/>
+    <downloadData name="main" title="Descarga" w="300" h="100" />
+</root>

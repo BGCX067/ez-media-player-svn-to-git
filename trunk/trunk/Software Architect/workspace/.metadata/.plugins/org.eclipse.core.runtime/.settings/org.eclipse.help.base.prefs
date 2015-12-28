@@ -1,0 +1,11 @@
+#Tue Nov 06 11:17:12 CET 2012
+workingSet=\u00E1mbito1
+remoteHelpICEnabled=true,true,true,false,true
+remoteHelpOn=true
+remoteHelpHost=publib.boulder.ibm.com,publib.boulder.ibm.com,publib.boulder.ibm.com,127.0.0.1,publib.boulder.ibm.com
+remoteHelpPath=/infocenter/rfthelp/v8r2,/infocenter/rsahelp/v8,/infocenter/rfthelp/v8r2,/help,/infocenter/rsasehlp/v7r5m0
+remoteHelpName=RFT 8.2.1 Infocenter,Rational Software Architect,RFT 8.2 Infocenter,Local,RSA SE Infocenter
+remoteHelpPort=80,80,80,63650,80
+remoteHelpPreferred=true
+eclipse.preferences.version=1
+scope=

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Suprimir el recurso &apos;student_registration&apos;" deleteContents="true" description="Suprimir el recurso &apos;student_registration&apos;" element1="/student_registration" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1321898441765"/>&#x0A;<refactoring comment="Suprimir el recurso &apos;Models/Modelo de diseño.emx&apos;" deleteContents="false" description="Suprimir el recurso &apos;Models/Modelo de diseño.emx&apos;" element1="/Models/Modelo de diseño.emx" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1321898671296"/>
+</session>
